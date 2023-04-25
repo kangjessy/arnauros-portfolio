@@ -1,0 +1,18 @@
+.navbar {
+  background: #f5f5f5 !important;
+
+  .navbar-brand {
+    margin-left: -50px;
+  }
+  .nav-item {
+    font-size: 24.87px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .nav-link {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.project-space {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.component-project {
+  text-decoration: none !important;
+  color: #282828;
+  transition: 0.5s;
+
+  &:hover {
+    color: #282828;
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+  .project-image:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.project-image {
+  position: absolute;
+  width: 330px;
+  height: 500px;
+}
+
+.plus {
+  margin-left: 20px;
+  margin-top: 250px;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}
